@@ -1,0 +1,66 @@
+.One{
+    text-align: center;
+  }
+  .header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .ant-card-body {
+    padding: 24px;
+    width: 399px;
+    /* max-height: 400px; */
+    background-color: antiquewhite;
+  /* background-color: rgb(67, 54, 67); */
+
+    justify-content: center;
+    align-items: center;
+
+    
+  
+  }
+
+  
+  .ant-typography{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+  }
+  .ant-btn-default  {
+    background-color: rgb(48, 13, 13);
+    border-color: black;
+
+    /* box-shadow: 0 2px 0 rgb(0 0 0 / 2%); */
+    color: aliceblue;
+    margin-top: 240px;
+   margin-left: 30px;
+}
+
+.count{
+  background-color: #8f917d;
+
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.count h2{
+  color: white;
+  align-items: center;
+justify-content: center;
+display: flex;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+
+  

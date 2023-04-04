@@ -1,0 +1,47 @@
+
+.App {
+  text-align: center;
+}
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ant-typography{
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .welcome{
+   
+        color: green;
+        font-size: 70px;
+        font-weight: 800 ;  
+      }
+.ant-input{
+    width: 300px;
+    border-color: brown;
+    color: purple;
+    border-radius: 0;
+}
+.ant-input::placeholder{
+    color: blue;
+
+}
+.ant-image{
+  width: 90px;
+  height: 150px;
+  /* height: auto; */
+  vertical-align: middle;
+  border-radius: 50px;
+}
+.datePicker{
+  border-color: green;
+  border-radius: 0;
+}

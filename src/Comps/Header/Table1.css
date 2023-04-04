@@ -1,0 +1,19 @@
+.ant-table-thead{
+    background-color: rgb(127, 127, 127);
+    color: rgb(127, 127, 127);
+    width: 550px;
+    
+    margin-left: 400px;
+    border-radius: 20px;
+    /* border: 2px solid black;
+     */
+    margin-top: 200px;
+   }
+   .btn{
+    background-color: antiquewhite;
+    margin-left: 200px;
+    color: black;
+    width: 300px;
+    
+   }
+   

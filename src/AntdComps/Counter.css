@@ -1,0 +1,20 @@
+body{
+    background-color: darkcyan;
+}
+.count{
+    align-items: center;
+    margin-left: 200px;
+   border-radius: 20px;
+    margin-top: 200px;
+    background-color: darkgrey;
+    width: 600px;
+    height: 400px;
+
+}
+.count h4{
+    font-size: 30px ;
+    margin-left: 230px;
+    margin-top: 50px;
+    color: brown;
+
+}

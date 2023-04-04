@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0;
+  }
+  
+  .Button {
+    margin: 5px 0;
+    background-color: #785739;
+    border: #2cbeb7;
+    border-radius: 0;
+    /* width: 90px; */
+  }
+  
+  .Input {
+    margin: 5px 0;
+  }
+  
+  
+  .Span {
+    text-decoration: underline;
+  }
+  
+  .Header {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .Footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  
+  .Sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .Container {
+    height: 100vh;
+  }
+  
+  .Image {
+   height: 600px;
+  }
+  
+  
+  .Grid {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .col-1 {
+    background-color: #f2f4f7;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .col-2 > .col-2-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
