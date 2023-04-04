@@ -34,7 +34,7 @@ function App() {
 
       </Routes> */}
       {/* <CounterClock/> */}
-      {/* <TicTac/> */}
+      <TicTac/>
       <Filter1/>
  
     </div>
