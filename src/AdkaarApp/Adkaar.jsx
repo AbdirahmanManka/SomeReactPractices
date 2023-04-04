@@ -4,11 +4,11 @@ import {Button, Card,Space,Typography,Popconfirm,message} from 'antd'
 
 const confirm = (e) => {
   console.log(e);
-  message.success('Click on Yes');
+  message.success('Cleared votes');
 };
 const cancel = (e) => {
   console.log(e);
-  message.error('Haye Kaama masaxin');
+  message.error('Not cleared');
 };
 
 function Adkaar() {
@@ -21,26 +21,26 @@ function Adkaar() {
 
     <Card className='one'>
       
-        <Typography.Text className='two'>Adkaar App</Typography.Text>
+        <Typography.Text className='two'>Vote Count App</Typography.Text>
 
 <div className='count'>
 <h2>{count}</h2>
 </div>
 <Space size={22} direction="horizontal">
 
-<Button style={{backgroundColor:"white",color:"black",borderColor:"black"}} onClick={()=>setCount(count-1)} disabled={count===0}>Kajar</Button>
-<Button style={{backgroundColor:"green",color:"black",borderColor:"white"}}onClick={()=>setCount(count+1)}>Kudar</Button>
+<Button style={{backgroundColor:"white",color:"black",borderColor:"black"}} onClick={()=>setCount(count-1)} disabled={count===0}>Count -1</Button>
+<Button style={{backgroundColor:"green",color:"black",borderColor:"white"}}onClick={()=>setCount(count+1)}>Count +1</Button>
 <Button style={{backgroundColor:"red",color:"white",borderColor:"white"}} disabled={count===0}>
 <Popconfirm
-    title="Masax Adkaartadi oo dhan"
-    description="Dhaaro inaa rabtid inaa masaxdid"
+    title="clear all votes"
+    description="Are you sure you want to clear all the data"
     onConfirm={()=>setCount(0) }
    
     onCancel={cancel}
-    okText="Wallahi iga masax"
-    cancelText="Maya"
+    okText="yes clear"
+    cancelText="No don't clear"
     disabled={count===0}>
-    <a href="#">Tirtir</a>
+    <a href="#">Reset</a>
   </Popconfirm>
   
   </Button>

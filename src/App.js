@@ -1,5 +1,6 @@
 // import { Button } from 'antd';
 import React from 'react'
+import Adkaar from './AdkaarApp/Adkaar';
 // import { Routes, Route ,useNavigate} from 'react-router-dom'
 // import Calendly from './Calendly/Calendly';
 import CounterClock from './Pages/PRC/CounterClock';
@@ -33,9 +34,10 @@ function App() {
         <Route path='*' element={<Err/>}></Route>
 
       </Routes> */}
-      {/* <CounterClock/> */}
+      {/* <CounterClock/>
       <TicTac/>
-      <Filter1/>
+      <Filter1/> */}
+<Adkaar/>
  
     </div>
   );
